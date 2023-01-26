@@ -1,0 +1,65 @@
+body, html {
+  font-family: 'Roboto', sans-serif;
+  background-color: #eee;
+  margin: 0;
+  height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.container {
+  padding-left: 20px;  
+  padding-right: 20px;
+}
+@media screen and (max-width: 576px) {
+  .container {
+    padding-left: 8px;  
+    padding-right: 8px;
+  }
+}
+h1 {
+  text-align: center;
+}
+fieldset {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  border-radius: 40px;
+}
+legend {
+  font-size: x-large;
+}
+select {
+  padding-left: 6px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 6px;
+}
+select:invalid {
+  color: gray;
+}
+input {
+  padding: 6px;
+  border-radius: 6px;
+  border-width: 1px;
+}
+option {
+  padding: 6px;
+}
+label {
+  margin-right: 8px;
+}
+.user-input {
+  margin-bottom: 30px;
+}
+.form-row {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.col-2-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+}

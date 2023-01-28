@@ -1,4 +1,4 @@
-![picture](core/logo.svg)
+![picture](src/logo.svg)
 
 # GoLoansCA - TypeScript/MaterialUI Lending Underwriter Calculator
 

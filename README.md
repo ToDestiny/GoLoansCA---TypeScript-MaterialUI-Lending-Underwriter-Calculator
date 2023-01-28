@@ -1,6 +1,6 @@
 ![picture](core/logo.svg)
 
-# GoLoansCA - Lending TypeScript Underwriter Calculator
+# GoLoansCA - TypeScript/MaterialUI Lending Underwriter Calculator
 
 The goal of this app is to calculate the probability of payback from customers.
 

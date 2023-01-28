@@ -1,47 +1,49 @@
-# Getting Started with Create React App
+![picture](core/logo.svg)
+
+# GoLoansCA - Lending TypeScript Underwriter Calculator
+
+The goal of this app is to calculate the probability of payback from customers.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Author
 
-In the project directory, you can run:
+Anthony COLAS
 
-### `npm start`
+## Technologies
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [![TypeScript-v_4.9.4](https://img.shields.io/badge/TypeScript-v4.9.4-blue)](https://www.typescriptlang.org/)
+- [![Material-UI-v_4.9.4](https://img.shields.io/badge/Material%20UI-v5.11.5-orange)](https://mui.com/)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## Preview
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![picture](preview.png)
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- npm
+- yarn
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### How to install?
 
-### `npm run eject`
+#### Install
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Go inside the installed repository and install dependencies:
+`yarn`
+`npm install`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Launch
+`yarn start`
+`npm start`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### Accessing the website
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Frontend is now rendered at URL `http://localhost:3000`
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Technology
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-# underwriter-calculator-v2
+TypeScript, Material UI and Netlify were heavily used for this project.
